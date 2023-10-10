@@ -38,7 +38,7 @@ found 0 vulnerabilities
 When running the test cases, the headless mode is turn off
 
 ```bash
-$  npx playwright test --headed
+$  npm run chromium
 ```
 
 ## Tests results
@@ -46,26 +46,26 @@ $  npx playwright test --headed
 - Afte a run is finish, a command to open the report should be printed in the terminal
 
 ```bash
-$  npx playwright show-report
+$  npm run report
 ```
 
 ## HTML Report Structure
 
 - The report generated
 
-![Report structure](imgs/)
+![Report structure](imgs/uno.png)
 
 - Select the test case, to display the full test steps per test case
 
-![Folder-Structure](imgs/)
+![Folder-Structure](imgs/dos.png)
 
 - A video is available per test case, the video can be access by tapping the icon
 
-![Folder-Structure](imgs/)
+![Folder-Structure](imgs/tres.png)
 
 - And by scrolling down inside each test case
 
-![Folder-Structure](imgs/)
+![Folder-Structure](imgs/cuatro.png)
 
 ## FAQ
 
