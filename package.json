@@ -1,0 +1,17 @@
+{
+  "name": "beon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "chromium": "playwright test --project=chromium --headed",
+    "report": "npx playwright show-report"
+  },
+  "keywords": [],
+  "author": "Alexander Hung",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.38.1",
+    "@types/node": "^20.8.4"
+  }
+}
